@@ -1,15 +1,13 @@
 # openjdkをインストール
- - https://jdk.java.net/ からアーカイブをダウンロードし任意のディレクトリに展開
-   
+ - https://jdk.java.net/ からアーカイブをダウンロードし任意のディレクトリに展開  
    ※ バージョンは8以降ならどれでも良いです。(長期サポート版は廃止されたようなので...)
    
- - 環境変数JAVA_HOMEを設定
-   
+ - 環境変数JAVA_HOMEを設定  
    ※ Oracle JREをインストールしている場合は、PATH環境変数を上書きされないよう注意
 
  - 確認
    
-   コマンドプロンプトから以下のコマンドを実行し、インストールしたバージョンの情報が出力されることを確認
+   コマンドプロンプトから以下のコマンドを実行し、インストールしたバージョンの情報が出力されることを確認　　
 	java -version
  
 # eclipseをインストール
@@ -17,30 +15,25 @@
  - eclipse.exeを実行
 
 # tomcatをインストール
- - https://tomcat.apache.org/download-90.cgi から9.0系をダウンロードし任意のディレクトリに展開
- 
+ - https://tomcat.apache.org/download-90.cgi から9.0系をダウンロードし任意のディレクトリに展開　　 
    ※ Windowsインストーラは複数バージョンの併用に問題があるため、開発用にはアーカイブを使った手動インストールを推奨
 
  - bin\startup.batを実行し、サーバプロセスが起動すること、デフォルトページ(http://localhost:8080/)が表示されることを確認
 
- - (オプション) 管理UI(tomcat-manager)を有効化
- 
+ - (オプション) 管理UI(tomcat-manager)を有効化　　 
    手順はgoogleで検索してください。
 
 # Gitをインストール(オプション)
- - 基本機能はeclipseに組み込みのgitクライアントだけで使用できるので、お好みで。
- 
+ - 基本機能はeclipseに組み込みのgitクライアントだけで使用できるので、お好みで。　　
    オリジナルgitのほか、github desktopも選択肢。
 
 # eclipseの設定
- - JDKの設定
- 
+ - JDKの設定　　
   メニュー>Window>Preference>Java>Installed JREにインストールしたopenjdkが設定されていることを確認(なければ追加)
  
  - mavenの設定
  
-  - メニュー>Window>Preference>Maven>User Settings
- 
+  - メニュー>Window>Preference>Maven>User Settings　　
   ※ ローカルリポジトリには大量のファイルがコピーされるため、空き容量に余裕のあるドライブを指定
  - tomcatサーバの設定
   - メニュー>Window>Preference>Server>Runtime Environments

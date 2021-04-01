@@ -3,6 +3,7 @@
 
    ※ バージョンは8以降ならどれでも良いです。(長期サポート版は廃止されたようなので...)
  - 環境変数JAVA_HOMEを設定
+   
    ※ Oracle JREをインストールしている場合は、PATH環境変数を上書きされないよう注意
  - 確認
    コマンドプロンプトから以下のコマンドを実行し、インストールしたバージョンの情報が出力されることを確認
@@ -18,6 +19,7 @@
    ※ Windowsインストーラは複数バージョンの併用に問題があるため、開発用にはzipアーカイブを使った手動インストールを推奨
  - bin\startup.batを実行し、サーバプロセスが起動すること、デフォルトページ(http://localhost:8080/)が表示されることを確認
  - (オプション) 管理UI(tomcat-manager)を有効化
+   
    手順はgoogleで検索してください。
 
 # Gitをインストール(オプション)
@@ -34,10 +36,10 @@
   ※ ローカルリポジトリには大量のファイルがコピーされるため、空き容量に余裕のあるドライブを指定
  - tomcatサーバの設定
  
- メニュー>Window>Preference>Server>Runtime Environments
-  Add>リストからtomcat 9.0を選択>tomcatインストール先ディレクトリを指定
-  メニュー>Window>Show View>Serversビューを開き、サーバを追加
-  Serversビューからtomcatサーバの起動、停止ができることを確認
+ -- メニュー>Window>Preference>Server>Runtime Environments
+ -- Add>リストからtomcat 9.0を選択>tomcatインストール先ディレクトリを指定
+ -- メニュー>Window>Show View>Serversビューを開き、サーバを追加
+ -- Serversビューからtomcatサーバの起動、停止ができることを確認
 
 # リポジトリのセットアップ
  - メニュー>Show View>Git Repositoriesビューを開く

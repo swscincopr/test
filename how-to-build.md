@@ -1,5 +1,6 @@
 # openjdkをインストール
  - https://jdk.java.net/ からアーカイブをダウンロードし任意のディレクトリに展開
+
    ※ バージョンは8以降ならどれでも良いです。(長期サポート版は廃止されたようなので...)
  - 環境変数JAVA_HOMEを設定
    ※ Oracle JREをインストールしている場合は、PATH環境変数を上書きされないよう注意
@@ -25,12 +26,15 @@
 
 # eclipseの設定
  - JDKの設定
+ 
   メニュー>Window>Preference>Java>Installed JREにインストールしたopenjdkが設定されていることを確認(なければ追加)
  - mavenの設定
-  メニュー>Window>Preference>Maven>User Settings
+ 
+ メニュー>Window>Preference>Maven>User Settings
   ※ ローカルリポジトリには大量のファイルがコピーされるため、空き容量に余裕のあるドライブを指定
  - tomcatサーバの設定
-  メニュー>Window>Preference>Server>Runtime Environments
+ 
+ メニュー>Window>Preference>Server>Runtime Environments
   Add>リストからtomcat 9.0を選択>tomcatインストール先ディレクトリを指定
   メニュー>Window>Show View>Serversビューを開き、サーバを追加
   Serversビューからtomcatサーバの起動、停止ができることを確認

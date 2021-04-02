@@ -56,7 +56,7 @@
 
 ## プロジェクトのデバッグ
  - eclipse>workshopプロジェクト > コンテキストメニュー > Debug as > Debug on Server
-  - 初回のみManually define a new server > tomcat9.0 を新規作成
+   - サーバ選択画面 > ##eclipseの設定で作成したtomcatサーバを選択
  - Consoleビューに以下の行が出力されれば起動完了  
    INFO  [workshop]: 2021/04/02 07:57:33: started  
   
